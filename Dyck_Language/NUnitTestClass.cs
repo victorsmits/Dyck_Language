@@ -18,7 +18,7 @@ namespace Dyck_Language
                 { "[", "]" }
             };
 
-            Assert.IsTrue(MainClass.IsDyckString("", alphabet));
+            Assert.IsTrue(MainClass.IsDyckString("(", alphabet));
             Assert.IsTrue(MainClass.IsDyckString("bonjour (victor)", alphabet));
             Assert.IsTrue(MainClass.IsDyckString("(())", alphabet));
             Assert.IsTrue(MainClass.IsDyckString("{{}}", alphabet));

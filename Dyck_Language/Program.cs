@@ -20,6 +20,7 @@ namespace Dyck_Language
         */
         public static bool IsDyckString(string s, Dictionary<string, string> alphabet)
         {
+
             Stack pile = new Stack();
             try
             {
